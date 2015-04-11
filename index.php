@@ -36,17 +36,18 @@
                     <ul class="information-links">
                         <li class="first"><a href="">Hours</a></li>
                         <li><a href="">About Us</a></li>
-                        <li><a href="">Contact Us</a></li>
+                        <li class="contact-us"><a href="">Contact Us</a></li>
                         <li class="divider">&nbsp;|&nbsp;</li>
                         <li class="greeting">Hi User!</li>
-                        <li class="last cart-button"><a href="">Cart (7)</a></li>
                         <li class="last logout-button"><a href="">Logout</a></li>
                     </ul>
-                    <div id="site-search">
-                        <form id="search-form">
-                            <input class="main-search-box" type=search name=s placeholder="Search here" >
-                            <span class="search-button"></span>
-                        </form>
+                    <div class="site-search-container">
+                        <div id="site-search">
+                            <form id="search-form">
+                                <input class="main-search-box" type=search name=s placeholder="Search here" >
+                                <span class="search-button"></span>
+                            </form>
+                        </div>
                     </div>
                 </div>
             </div>
