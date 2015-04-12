@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8">
@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="themes/dark/dark.css" type="text/css" media="screen" />
     <link rel="stylesheet" href="themes/bar/bar.css" type="text/css" media="screen" />
     <link rel="stylesheet" href="css/nivo-slider.css" type="text/css" media="screen" />
-    <link rel="stylesheet" href="css/custom.css?v=12" type="text/css" media="screen" />
+    <link rel="stylesheet" href="css/custom.css?v=16" type="text/css" media="screen" />
     <link href='http://fonts.googleapis.com/css?family=PT+Sans|PT+Sans+Narrow|Six+Caps|PT+Sans+Caption' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.3/themes/smoothness/jquery-ui.css">
     <!--[if lt IE 9]>
@@ -23,14 +23,17 @@
     <!--Page Wrapper-->
     <div id="wrapper">
         <header>
-            <div class="company-logo-container">
-                <img class="company-logo img-responsive" src="images/company-logo.png" height="188" width="187" title="company logo" alt="company logo">
+            <div class="company-logo-outer-container">
+                <div class="company-logo-inner-container">
+                    <img class="company-logo img-responsive" src="images/company-logo.png" height="188" width="187" title="company logo" alt="company logo">
+                </div>
             </div>
             <div class="top-right">
                 <div class="mini-cart">
                     <p class="quantity">7</p>
                     <p class="text">Items in Cart</p>
                     <p class="total">$239</p>
+                    <p class="placeholder">Cart</p>
                 </div>
                 <div class="information-links-container">
                     <ul class="information-links">
@@ -39,7 +42,7 @@
                         <li class="contact-us"><a href="">Contact Us</a></li>
                         <li class="divider">&nbsp;|&nbsp;</li>
                         <li class="greeting">Hi User!</li>
-                        <li class="last logout-button"><a href="">Logout</a></li>
+                        <li class="last log-button login"><a href="">Login</a></li>
                     </ul>
                     <div class="site-search-container">
                         <div id="site-search">
@@ -53,21 +56,71 @@
             </div>
             <!--NAV-->
             <nav>
+                <div class="navbar-header">
+                    <button class="navbar-toggle collapsed">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand">Blue</a>
+                </div>
                 <ul class="nav">
-                    <li class="menuitem"><p><a href="#">Desktop</a></p></li>
-                    <li class="menuitem"><p><a href="#">Laptop Bags &amp; Cases</a></p></li>
                     <li class="menuitem">
-                        <p><a href="#click1">On the Road</a></p>
-                        <ul class="subnav on-the-road">
-                            <li class="submenuitem first"><p><a href="#click2">subcat1</a></p></li>
-                            <li class="submenuitem"><p><a href="#click2">subcat2</a></p></li>
-                            <li class="submenuitem last"><p><a href="#click2">subcat3</a></p></li>
+                        <p>Desktop</p>
+                        <ul class="subnav">
+                            <li class="submenuitem first"><p><a href="">subcat1</a></p></li>
+                            <li class="submenuitem"><p><a href="">subcat2</a></p></li>
+                            <li class="submenuitem last"><p><a href="">subcat3</a></p></li>
                         </ul>
                     </li>
-                    <li class="menuitem"><p><a href="#">Multimedia</a></p></li>
-                    <li class="menuitem last"><p><a href="#">Bedroom</a></p></li>
-                    <li class="menuitem last"><p><a href="#">Living Room</a></p></li>
-                    <li class="menuitem last"><p><a href="#">Fashion</a></p></li>
+                    <li class="menuitem">
+                        <p>Laptop Bags &amp; Cases</p>
+                        <ul class="subnav">
+                            <li class="submenuitem first"><p><a href="">subcat1</a></p></li>
+                            <li class="submenuitem"><p><a href="">subcat2</a></p></li>
+                            <li class="submenuitem last"><p><a href="">subcat3</a></p></li>
+                        </ul>
+                    </li>
+                    <li class="menuitem">
+                        <p>On the Road</p>
+                        <ul class="subnav">
+                            <li class="submenuitem first"><p><a href="">subcat1</a></p></li>
+                            <li class="submenuitem"><p><a href="">subcat2</a></p></li>
+                            <li class="submenuitem last"><p><a href="">subcat3</a></p></li>
+                        </ul>
+                    </li>
+                    <li class="menuitem">
+                        <p>Multimedia</p>
+                        <ul class="subnav">
+                            <li class="submenuitem first"><p><a href="">subcat1</a></p></li>
+                            <li class="submenuitem"><p><a href="">subcat2</a></p></li>
+                            <li class="submenuitem last"><p><a href="">subcat3</a></p></li>
+                        </ul>
+                    </li>
+                    <li class="menuitem">
+                        <p>Bedroom</p>
+                        <ul class="subnav">
+                            <li class="submenuitem first"><p><a href="">subcat1</a></p></li>
+                            <li class="submenuitem"><p><a href="">subcat2</a></p></li>
+                            <li class="submenuitem last"><p><a href="">subcat3</a></p></li>
+                        </ul>
+                    </li>
+                    <li class="menuitem">
+                        <p>Living Room</p>
+                        <ul class="subnav">
+                            <li class="submenuitem first"><p><a href="">subcat1</a></p></li>
+                            <li class="submenuitem"><p><a href="">subcat2</a></p></li>
+                            <li class="submenuitem last"><p><a href="">subcat3</a></p></li>
+                        </ul>
+                    </li>
+                    <li class="menuitem last">
+                        <p>Fashion</p>
+                        <ul class="subnav">
+                            <li class="submenuitem first"><p><a href="">subcat1</a></p></li>
+                            <li class="submenuitem"><p><a href="">subcat2</a></p></li>
+                            <li class="submenuitem last"><p><a href="">subcat3</a></p></li>
+                        </ul>
+                    </li>
                 </ul>
             </nav>
         </header>
@@ -268,7 +321,7 @@
                                 </div>
                                 <div class="product-info-container">
                                     <div class="product-title-container">
-                                        <p class="product-title">iPod USB-stick 4GB<br>By Bone</p>
+                                        <p class="product-title">This is a two line description with ellipsis</p>
                                     </div>
                                     <div class="product-price-container">
                                         <p class="product-price">$42.00</p>
@@ -419,9 +472,62 @@
     <script type="text/javascript" src="../js/jquery.nivo.slider.js"></script><!--nivo slider-->
     <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.3/jquery-ui.min.js"></script>
 
-    <!--nivo slider plugin activation-->
+
     <script type="text/javascript">
+
+
+
+
+
         $(window).load(function() {
+
+            /*nav controller*/
+            var navController = function (nav) {
+                this.nav = nav;
+                this.subnavs = nav.find(".subnav");
+                var self = this;
+                this.closeMenu = function(obj){
+                    obj.next(".subnav").removeClass("active");
+                }
+                this.openMenu = function(obj){
+                    self.closeAllMenus();
+                    obj.parent().addClass("active");
+                    obj.next(".subnav").addClass("active");
+                }
+                this.closeAllMenus = function(){
+                    self.subnavs.each( function( index, listItem ) {
+                        $(listItem).removeClass("active");
+                        $(listItem).parent().removeClass("active");
+                    });
+                }
+                this.toggleNavbar = function(){
+                    if(!nav.hasClass('active')){
+                        nav.animate({
+                            height: $(".nav .menuitem").height()*nav.children().length
+                        }, 500, function() {
+                            nav.addClass('active').attr("style","");
+                        });
+                    }else{
+                        navController.closeAllMenus();
+                        nav.removeClass("ease-in-height");
+                        nav.animate({
+                            height: 0
+                        }, 500, function() {
+                            nav.removeClass('active').attr("style","");
+                        });
+                    }
+                }
+                this.toggleSubnavbar = function(obj){
+                    if( obj.is("p") && obj.children("a").length > 0 ){
+                        obj.children("a")[0].click();
+                    }else if(obj.is("p")){
+                        navController.openMenu(obj);
+                    }
+                }
+            };
+            var navController = new navController($(".nav"));
+
+            //nivo slider
             $('#slider').nivoSlider({
                 effect: 'random',                 // Specify sets like: 'fold,fade,sliceDown'
                 slices: 15,                     // For slice animations
@@ -445,8 +551,8 @@
                 afterLoad: function(){}         // Triggers when slider has loaded
             });
 
+            //form submissions
             $( "#newsletter-form .submit-button" ).click(function() {
-                //submit form
                 alert("newsletter form will be submitted");
                 $( "#newsletter-form" ).submit();
             });
@@ -457,28 +563,55 @@
                 $( "#search-form" ).submit();
             });
 
+            //onclicks
             $(".add-to-cart-button").click(function(){
-                $(function() {
-                    $( "#dialog-confirm-addcart" ).dialog({
-                        resizable: false,
-                        modal: true,
-                        buttons: {
-                            "Add to cart": function() {
-                                $( this ).dialog( "close" );
-                            },
-                            Cancel: function() {
-                                $( this ).dialog( "close" );
-                            }
+                $( "#dialog-confirm-addcart" ).dialog({
+                    resizable: false,
+                    modal: true,
+                    buttons: {
+                        "Add to cart": function() {
+                            $( this ).dialog( "close" );
+                        },
+                        Cancel: function() {
+                            $( this ).dialog( "close" );
                         }
-                    });
+                    }
                 });
             });
+
+
+            $(".navbar-toggle").click(function(){
+                navController.toggleNavbar();
+            });
+
+
+            $(".mini-cart").click(function(event){
+               $( "#dialog-form-login" ).dialog({
+                   resizable: false,
+                   modal: true
+               });
+            });
+            $(".login a").click(function(event){
+                $( "#dialog-form-login" ).dialog({
+                    resizable: false,
+                    modal: true
+                });
+                return false;
+            });
+
+
+            $(".menuitem").click(function(event){
+                navController.toggleSubnavbar($(event.target));
+            });
+
 
         });
 
 
+
+
     </script>
-    <!--/nivo slider plugin activation-->
+
 
 </body>
 
@@ -487,5 +620,19 @@
     <p><span class="ui-icon ui-icon-alert" style="float:left; margin:0 7px 20px 0;"></span>This item will be added to your cart, are you sure?</p>
 </div>
 
+<div id="dialog-form-login" title="Log In" style="display:none;">
+    <p class="validateTips"></p>
+    <form>
+        <fieldset>
+            <label for="email">Email</label><br>
+            <input type="text" name="email" id="email" value="jane@smith.com" class="text ui-widget-content ui-corner-all">
+            <label for="password">Password</label><br>
+            <input type="password" name="password" id="password" value="xxxxxxx" class="text ui-widget-content ui-corner-all">
+
+            <!-- Allow form submission with keyboard without duplicating the dialog button -->
+            <input type="submit">
+        </fieldset>
+    </form>
+</div>
 
 </html>
