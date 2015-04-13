@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>3dcarttest</title>
+    <title>Blue</title>
     <link rel="stylesheet" href="themes/default/default.css" type="text/css" media="screen" />
     <link rel="stylesheet" href="themes/light/light.css" type="text/css" media="screen" />
     <link rel="stylesheet" href="themes/dark/dark.css" type="text/css" media="screen" />
