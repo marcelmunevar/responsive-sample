@@ -214,7 +214,6 @@ header .mini-cart .placeholder{display:none}
 /*footer*/
 footer{width:100%;overflow:hidden;padding-top:50px;}
 footer .footer{background-image:url("img/footer-background.jpg");height:345px;overflow:hidden;background-repeat:no-repeat;position:relative;padding:52px 75px 0 75px;}
-footer .footer-links-container{overflow:hidden;}
 footer .footer-links{float:left;list-style:none;margin-right:37px;}
 footer .footer-links li{margin-bottom:3px;}
 footer .copyright{position:absolute;bottom:30px;font-size:11px;color:#5a5d5e;font-family:arial;}
