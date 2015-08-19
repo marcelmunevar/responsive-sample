@@ -6,9 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Blue</title>
     <link rel="stylesheet" href="themes/default/default.css" type="text/css" media="screen" />
-    <link rel="stylesheet" href="themes/light/light.css" type="text/css" media="screen" />
     <link rel="stylesheet" href="themes/dark/dark.css" type="text/css" media="screen" />
-    <link rel="stylesheet" href="themes/bar/bar.css" type="text/css" media="screen" />
     <link rel="stylesheet" href="css/nivo-slider.css" type="text/css" media="screen" />
     <link rel="stylesheet" href="css/custom.css?v=16" type="text/css" media="screen" />
     <link href='http://fonts.googleapis.com/css?family=PT+Sans|PT+Sans+Narrow|Six+Caps|PT+Sans+Caption' rel='stylesheet' type='text/css'>
